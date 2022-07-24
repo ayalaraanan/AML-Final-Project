@@ -1,10 +1,14 @@
 # AML Final Project
+By Ayala Raanan and Gil Levy
 
 ## Abstract
 
 This is the final project in the 2022 AML course.
+It reproduces results for the following paper on the subject of Human Activity Recognition (HAR):
 
-We hope you like it.
+Haojie Ma, Wenzhong Li, Xiao Zhang, Songcheng Gao, and Sanglu Lu. 2019. AttnSense: Multi-level Attention Mechanism For Multimodal Human Activity Recognition. In Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16, 2019. 3109–3115.
+()
+
 
 ## The Notebooks
 
@@ -12,14 +16,20 @@ To run the notebooks locally, you first need to get the PAMAP2 dataset (see inst
 
 - [`PAMAP2_data_statistics.ipynb`](PAMAP2_data_statistics.ipynb) - This notebook analyzes the data and shows interesting statistics.
 - [`PAMAP2_data_preprocessing.ipynb`](PAMAP2_data_preprocessing.ipynb) - This notebook performs all preprocessing of the data. It includes optional variations of:
-   - Sequence length
-   - With or without augmentation + controlling noise magnitude
+   - Adding augmentation + controlling noise magnitude
+   - Changing Sequence length
+   - Choosing different subject as test set
    - With or without FFT
    etc.
-  It outputs the train, dev and tests datasets to a predefined path, to be used by the `AttnSense model training and evaluation.ipynb` notebook.
+  It outputs the train, dev and test datasets to a predefined path, to be used by the `AttnSense model training and evaluation.ipynb` notebook.
 
-- [`AttnSense model training and evaluation.ipynb`](AttnSense model training and evaluation.ipynb)
+- [`AttnSense model training and evaluation.ipynb`](AttnSense model training and evaluation.ipynb) - This notebook defines the model and runs training and evaluation.
 
+It includes the options to:
+    - Choose CNN (1 or 4 layers)
+    - Change GRU hidden size
+    - Other parameters...
+    - It contains the summary and graphs of our experiments
 
 ## How to get the data
 
@@ -27,3 +37,9 @@ You can download the data from [here](http://archive.ics.uci.edu/ml/machine-lear
 
 Alternatively, run the script `./download_datasets.sh` to do that automatically.
 
+## How to run the model
+
+1. Run preprocessing notebook with desired options and save to defined path
+2. Run training and evaluation notebook: After loading from same path, run all blocks till the evaluation section.
+
+Enjoy!
