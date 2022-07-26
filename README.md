@@ -20,6 +20,7 @@ To run the notebooks locally, you first need to get the PAMAP2 dataset (see inst
    - Choosing different subject as test set
    - With or without FFT
    etc.
+   
   It outputs the train, dev and test datasets to a predefined path, to be used by the `AttnSense_model_training_and_evaluation.ipynb` notebook.
 
 - [`AttnSense_model_training_and_evaluation.ipynb`](AttnSense_model_training_and_evaluation.ipynb) - This notebook defines the model and runs training and evaluation.
