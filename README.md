@@ -35,7 +35,7 @@ Innovation part notebooks include:
 - [PAMAP2_model_innovation_fine_tuning_multihead_att](https://github.com/ayalaraanan/AML-Final-Project/blob/master/PAMAP2_model_innovation_fine_tuning_multihead_att.ipynb) contains the fine-tuning experiments and the multiple context vectors experiments.
 - [PAMAP2_preprocessing_rotation_augmentation](https://github.com/ayalaraanan/AML-Final-Project/blob/master/PAMAP2_preprocessing_rotation_augmentation.ipynb) handles preparation of rotation augmented data (training is the same).
 - [PAMAP2_preprocessing_subject_label](https://github.com/ayalaraanan/AML-Final-Project/blob/master/PAMAP2_preprocessing_subject_label.ipynb) handles data preparation with double labeling (activity and subject) for the subject-aware model training.
-- subject_aware_AttnSense_model_training_and_evaluation contains the subject-aware model and experiments.
+- [subject_aware_AttnSense_model_training_and_evaluation](https://github.com/ayalaraanan/AML-Final-Project/blob/master/subject_aware_AttnSense_model_training_and_evaluation.ipynb) contains the subject-aware model and experiments.
 
 
 ## How to get the data
