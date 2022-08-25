@@ -32,10 +32,10 @@ To run the notebooks locally, you first need to get the PAMAP2 dataset (see inst
     - It contains the summary and graphs of our experiments
 
 Innovation part notebooks include:
-•	PAMAP2_model_innovation_fine_tuning_multihead_att contains the fine-tuning experiments and the multiple context vectors experiments.
-•	PAMAP2_preprocessing_rotation_augmentation handles preparation of rotation augmented data (training is the same).
-•	PAMAP2_preprocessing_subject_label handles data preparation with double labeling (activity and subject) for the subject-aware model training.
-•	subject_aware_AttnSense_model_training_and_evaluation contains the subject-aware model and experiments.
+- PAMAP2_model_innovation_fine_tuning_multihead_att contains the fine-tuning experiments and the multiple context vectors experiments.
+- PAMAP2_preprocessing_rotation_augmentation handles preparation of rotation augmented data (training is the same).
+- PAMAP2_preprocessing_subject_label handles data preparation with double labeling (activity and subject) for the subject-aware model training.
+- subject_aware_AttnSense_model_training_and_evaluation contains the subject-aware model and experiments.
 
 
 ## How to get the data
