@@ -8,6 +8,8 @@ It reproduces results for the following paper on the subject of Human Activity R
 
 Haojie Ma, Wenzhong Li, Xiao Zhang, Songcheng Gao, and Sanglu Lu. 2019. **AttnSense: Multi-level Attention Mechanism For Multimodal Human Activity Recognition**. In Proceedings of the Twenty-Eighth International Joint Conference on Artificial Intelligence, IJCAI 2019, Macao, China, August 10-16, 2019. 3109–3115.
 
+Our report can be found here:
+https://github.com/ayalaraanan/AML-Final-Project/blob/master/AttnSense%20Multi-level%20Attention%20Mechanism%20For%20Multimodal%20Human%20Activity.pdf
 
 ## The Notebooks
 
